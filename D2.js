@@ -83,7 +83,7 @@ typeof num8 === "number" ? console.log("è un numero") : console.log("non è un 
 */
 
 const num9 = 17;
-if ("x" % 2 === 0) {
+if (num9 % 2 === 0) {
   console.log("pari");
 } else {
   console.log("dispari");
@@ -127,7 +127,7 @@ console.log(me);
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-delete me.skills[-1];
+me.skills.pop();
 console.log(me);
 
 /* ESERCIZIO 14
